@@ -153,7 +153,7 @@
     </div>
   </nav>
   <main
-    class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+    class="max-w-screen-xl p-4 mx-auto" 
   >
     <router-view></router-view>
   </main>
@@ -162,7 +162,7 @@
 <script setup lang="ts"></script>
 
 <style scoped>
- .router-link-exact-active {
-    @apply text-blue-700 dark:text-blue-500
+.router-link-exact-active {
+  @apply text-blue-700 dark:text-blue-500;
 }
 </style>
